@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://thumbs.dreamstime.com/b/fond-abstrait-de-code-source-grand-stockage-donn%C3%A9es-et-repr%C3%A9sentation-calcul-nuage-127601124.jpg" rel="stylesheet">
+    <title>Resto</title>
+<body>
+<header>
+    <a href="#" class="logo"><span>L'histoire du web</span></a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();"></a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+    </ul>
+</header>
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2 >le web</h2>
+        <p></p>
+    </div>
+</section>
+<section class="apropos" id="apropos">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte"><span>A Propos Du Web</span></h2>
+            <p>Un site web, site Web, site internet ou simplement site, 
+                est un ensemble de pages web et de ressources reliées par des hyperliens, 
+                défini et accessible par une adresse web. Un site est développé à l'aide de langages de programmation web, 
+                puis hébergé sur un serveur web accessible via le réseau mondial Internet, un intranet local, 
+                ou n'importe quel autre réseau, tel que le réseau Tor.
+
+                L'ensemble des sites web publics constituent le World Wide Web.</p>
+        </div>
+        <div class="col50">
+            <div class="img">
+                <img src="https://thumbs.dreamstime.com/b/fond-abstrait-de-code-source-grand-stockage-donn%C3%A9es-et-repr%C3%A9sentation-calcul-nuage-127601124.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+    <section class="apropos" id="apropos">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titre-texte"><span>histoire</span></h2>
+                <p>Le World Wide Web (WWW) a été créé en 1989 par l’ingénieur anglais du CERN, 
+                    Tim Berners-Lee. Le web a été essentiellement conçu pour partager automatiquement des informations entre les scientifiques,
+                     universités et instituts du monde entier. info.cern.ch fut le premier site web mis en ligne, 
+                     fonctionnant sur un ordinateur NeXT au CERN. Ce site est toujours accessible par internet4. 
+                     Le premier site web français est créé en 1992 au CNRS5. À cette période, il existe seulement 26 sites web.
+
+                    Avant l’introduction de HTML et HTTP, 
+                    d’autres protocoles tels que FTP et Gopher étaient utilisés pour obtenir des fichiers depuis un serveur. 
+                    Ces protocoles offraient une organisation hiérarchique de répertoires dans lesquels l’utilisateur naviguait
+                     et choisissait les fichiers à télécharger.</p>
+            </div>
+            <div class="col50">
+                <div class="img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/WorldWideWeb.png/220px-WorldWideWeb.png" alt="image">
+                </div>
+            </div>
+        </div>
+        <section class="apropos" id="apropos">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titre-texte"><span>définition du web</span></h2>
+                    <p>Un site web est un ensemble de pages web qui peuvent être consultées en suivant des hyperliens à l'intérieur du site. L'adresse web d'un site correspond en fait à l'URL (Uniform Resource Locator) d'une page web prévue pour être la première consultée : la page d'accueil. La consultation des pages d'un site s'appelle une « visite », car les hyperliens devraient permettre de consulter toutes les pages du site sans le quitter (sans devoir consulter une page web hors du site). Une visite peut commencer par n'importe quelle page, particulièrement lorsque son URL est donnée par un moteur de recherche. Techniquement, rien ne distingue la page d'accueil d'une autre page. Les pages web sont écrites dans un langage informatique conçu pour contenir des hyperliens, le HTML (Hypertext Markup Language). </p>
+                </div>
+                <div class="col50">
+                    <div class="img">
+                        <img src="data:image/jpeg;base64,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" alt="image">
+                    </div>
+                </div>
+            </div> 
+            <section class="apropos" id="apropos">
+                <div class="row">
+                    <div class="col50">
+                        <h2 class="titre-texte"><span></span>organisation d'un projet web</h2>
+                        <p>Les différentes étapes de la conduite d'un projet web peuvent être résumées ainsi :
+
+                            lancement : étude des besoins, de la concurrence et de l'existant pour l'établissement d'un cahier des charges ;
+                            conception : élaboration de la structure (arborescence), du contenu des pages web et en particulier de la page d'accueil et éventuellement un moteur de recherche, du graphisme, qui font partie du cahier des charges fonctionnel ;
+                            réalisation : voir ci-dessous ;
+                            production : le site est mis en ligne, devient accessible au public ciblé ;
+                            exploitation : phase de maintenance et de promotion du site, avec notamment le référencement naturel (Netlinking) ou payant (Google Adwords, Microsoft Adcenter, ou autres).
+                            </p>
+                    </div>
+                    <div class="col50">
+                        <div class="img">
+                            <img src="https://thumbs.dreamstime.com/b/fond-abstrait-de-code-source-grand-stockage-donn%C3%A9es-et-repr%C3%A9sentation-calcul-nuage-127601124.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+<section class="expert" id="expert">
+    <div class="titre">
+        <h2 class="titre-texte"><span>V</span>oici les créateurs du web</h2>
+        <p></p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQi-4GrRiraxgytp4QE_LvAVI3etbINALVH_8LfqWCCeAou6h_vb5-VvOme1kAY" alt="image">
+            </div>
+            <div class="text">
+                <h3>Monsieur Tim Berners-Lee</h3>
+            </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RobertCailliau-2019-09-04_%28cropped%29.jpg/220px-RobertCailliau-2019-09-04_%28cropped%29.jpg" alt="image">
+         </div>
+            <div class="text">
+                <h3>Robert Cailliau</h3>
+    </div>
+</section>
+<div class="text">
+    <h3>Merci de votre attention. <a target="_blank" href="https://fr.wikipedia.org/wiki/Site_web">source</a> , libre de droits. réalisé par Nathan LE FORTIER</h3>
+</div>
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+</body>
+</html>
